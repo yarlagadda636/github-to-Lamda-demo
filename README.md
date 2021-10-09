@@ -6,12 +6,12 @@ This repo contains the source code for my YouTube video (https://www.youtube.com
                  CI/CD from GitHub to AWS Lambda - https://github.com/felixyu9/github-to-lambda-demo
 =======================================================================================================================
 Step 1:-
-       Create a Lamda Function
-       Function Name 		github-to-Lamda-demo
+       Create a Lambda Function
+       Function Name 		github-to-Lambda-demo
        Runtime       		phython 3.8
 Step 2:-
        Create a GitHub Repository
-       Repository Name		github-to-lamda-demo
+       Repository Name		github-to-Lambda-demo
        Options                  public
                                 Add a Readme file
  				Add .gitignore  phython
@@ -20,13 +20,13 @@ Step 3:-
        git bash                 local laptop
        Open                     local laptop cd to folder
        Clone the Repository     git clone https://github.com/felixyu9/github-to-lambda-demo.git
-       Navigate                 cd github-to-lamda-demo
+       Navigate                 cd github-to-Lambda-demo
        vscode                   code . or open vscode and go to folder
 Step 4:- 
-       AWS console              Go to lamda function,find out the handler info
-                                Lamda-function.lamda-handler
-       vscode                   create a file lamda-functon.py (like in handler info) 
-       vscode                   in lamda-function.py file write a handler
+       AWS console              Go to Lambda function,find out the handler info
+                                Lambda-function.Lambda-handler
+       vscode                   create a file Lambda-functon.py (like in handler info) 
+       vscode                   in Lambda-function.py file write a handler
        vscode                   create 2nd file requirements.txt
        vscode                   create 3rd file buildspec.yml 
 Step 5:-
@@ -67,7 +67,7 @@ Step 7:-
                                  ],
                                 "Resource": "arn:aws:lambda:us-east-1:your-aws-account-number:function:your-lambda-function"
                               },
-                              Replace Resource arn with lamda function arn
+                              Replace Resource arn with Lambda function arn
                               click on Review Policy and Save changes.
 Step 8:-
       Testing                 update print('Done x1') with print('Done x2')  
